@@ -1,0 +1,174 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+	color: #ffffff;
+	background: #1f202b;
+}
+
+h1,
+h2,
+h3 {
+
+	text-transform: lowercase;
+}
+
+h2 {
+	color: #fa0075;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+}
+
+/***** GRID *****/
+.full-width {
+	margin: 0 auto;
+	overflow: auto;
+	width: 1200px;
+}
+
+.half-width {
+	float: left;
+	margin: 0 auto;
+	width: 600px;
+}
+
+.third-width {
+	float: left;
+	margin: 0 auto;
+	width: 400px;
+}
+
+#about {
+	clear: both;
+	height: 550px;
+}
+/***** HEADER *****/
+
+header h2 {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	padding: 25px;
+}
+nav {
+	color: #ffffff;
+	float: right;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 45px;
+}
+
+#hero img {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+#hero {
+	margin: 0
+}
+
+#hero h1 {
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 600;
+	position: absolute;
+	font-size: 72px;
+	margin: 200px 200px 75px 15px;
+}
+
+#hero span {
+	color: #fa0075;
+}
+/***** PORTFOLIO *****/
+
+#portfolio {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	margin: 0 100px;
+	padding: 25px;
+}
+
+#portfolio h3 {
+	font-weight: bold;
+}
+
+#portfolio img {
+	height: 350px;
+}
+
+#portfolio .half-width {
+	height: 400px;
+}
+
+.jap h3 {
+	font-weight: bold;
+	text-align: right;
+}
+/***** ABOUT *****/
+
+#about {
+	background: url('../img/about-me.png') no-repeat;
+	background-position: center;
+	background-size: 1200px 550px;
+}
+
+#about h3, #about p { 
+	font-family: 'Montserrat', sans-serif;
+	color:#1f202b;
+	margin: 0 500px 0 100px;
+}
+
+#about h3{
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 100px;
+	text-transform: none;
+}
+#about p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	padding-top: 20px;
+}
+/***** CONTACT *****/
+#contact .third-width {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#contact h3 {
+	font-weight: bold;
+}
+      
+#contact ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 15px;
+}
+
+#contact img {
+	background: #1f202b;
+}
+
+/***** FOOTER *****/
+footer {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#contact p {
+	color: #ffffff;
+}
